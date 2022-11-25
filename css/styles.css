@@ -1,0 +1,172 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+
+.main-content{
+    padding-top: 7%;
+}
+
+.config-navbar{
+    padding: 0;
+}
+
+.navbar-nav{
+    font-size: 1.3rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+.tindog-img{
+    transform: rotate(28deg);
+    position: absolute;
+    right: 30%;
+    width: 60%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .tindog-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* Features Section */
+
+#features{
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+    padding: 7% 15%;
+    z-index: 1;
+}
+
+.features-icons{
+    font-size: 4rem;
+    color: #ef8172;
+    margin: 10px;
+}
+
+.features-icons:hover {
+    color: #ff4c68
+}
+
+/* Testimonial Section*/
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #ffffff;
+}
+
+#testimonials .carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7%;
+}
+
+.press-logo{
+    margin: 0 30px 0 30px;
+    width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta Section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 7%;
+    color: #ffffff;
+}
+
+#cta h3{
+    font-size: 3.5rem;
+}
+
+/* Footer Section */
+
+#footer{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.social-icon:hover {
+  color: lightcoral;
+}
